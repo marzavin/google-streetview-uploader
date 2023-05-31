@@ -71,14 +71,6 @@ namespace AM.Google.StreetView.Core
                 }
             }
 
-            //foreach (var directory in directories)
-            //{
-            //    foreach (var tag in directory.Tags)
-            //    {
-            //        result.Errors.Add($"{directory.Name} - {tag.Name} = {tag.Description}");
-            //    }
-            //}
-
             return Task.FromResult(result);
         }
     }
