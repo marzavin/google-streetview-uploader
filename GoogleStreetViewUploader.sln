@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Google.StreetView.Core", "src\AM.Google.StreetView.Core\AM.Google.StreetView.Core.csproj", "{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.GoogleStreetViewUploader.CLI", "src\AM.GoogleStreetViewUploader.CLI\AM.GoogleStreetViewUploader.CLI.csproj", "{69C156E2-BE8E-4287-80A1-026A37690203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C156E2-BE8E-4287-80A1-026A37690203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C156E2-BE8E-4287-80A1-026A37690203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C156E2-BE8E-4287-80A1-026A37690203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C156E2-BE8E-4287-80A1-026A37690203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AF96B92-E6C6-461A-9C46-6349AA8F8469}
+	EndGlobalSection
+EndGlobal

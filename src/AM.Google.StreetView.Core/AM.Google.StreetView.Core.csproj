@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoordinateSharp" Version="2.18.1.1" />
+    <PackageReference Include="Google.Apis.StreetViewPublish.v1" Version="1.60.0.3063" />
+    <PackageReference Include="MetadataExtractor" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>
