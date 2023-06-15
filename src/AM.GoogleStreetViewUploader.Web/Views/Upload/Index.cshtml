@@ -1,0 +1,14 @@
+﻿@{
+    var isAuthenticated = User?.Identity != null && User.Identity.IsAuthenticated;
+}
+
+<div class="text-center">
+    @if (isAuthenticated)
+    {
+        <h3>You are logged in as @User.Identity.Name. @Html.ActionLink("Click here to sign out.", AccountController.SignOutAction, AccountController.Name)</h3>
+    }
+    else
+    {
+        <h3>You are not logged in. @Html.ActionLink("Click here to sign in.", AccountController.SignInAction, AccountController.Name)</h3>
+    }
+</div>

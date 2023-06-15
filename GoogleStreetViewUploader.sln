@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Google.StreetView.Core", "src\AM.Google.StreetView.Core\AM.Google.StreetView.Core.csproj", "{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Google.StreetView.Core", "src\AM.Google.StreetView.Core\AM.Google.StreetView.Core.csproj", "{FC746E7E-DBE0-4AD3-957D-FF7E4DE878BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.GoogleStreetViewUploader.CLI", "src\AM.GoogleStreetViewUploader.CLI\AM.GoogleStreetViewUploader.CLI.csproj", "{69C156E2-BE8E-4287-80A1-026A37690203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.GoogleStreetViewUploader.CLI", "src\AM.GoogleStreetViewUploader.CLI\AM.GoogleStreetViewUploader.CLI.csproj", "{69C156E2-BE8E-4287-80A1-026A37690203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.GoogleStreetViewUploader.Web", "src\AM.GoogleStreetViewUploader.Web\AM.GoogleStreetViewUploader.Web.csproj", "{1B0A0F2D-25E3-4567-94CA-9B1431FC1C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{69C156E2-BE8E-4287-80A1-026A37690203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69C156E2-BE8E-4287-80A1-026A37690203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69C156E2-BE8E-4287-80A1-026A37690203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0A0F2D-25E3-4567-94CA-9B1431FC1C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0A0F2D-25E3-4567-94CA-9B1431FC1C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0A0F2D-25E3-4567-94CA-9B1431FC1C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0A0F2D-25E3-4567-94CA-9B1431FC1C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
