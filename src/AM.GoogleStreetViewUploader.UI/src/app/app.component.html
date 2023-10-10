@@ -1,0 +1,15 @@
+<ng-container
+  *ngIf="isLoggedIn === true; then loggedIn; else loggedOut">
+</ng-container>
+
+<ng-template #loggedIn>
+  <div>
+    You are logged in as {{socialUser.name}}!
+  </div>
+</ng-template>
+
+<ng-template #loggedOut>
+  <div>
+    <asl-google-signin-button></asl-google-signin-button>
+  </div>
+</ng-template>
