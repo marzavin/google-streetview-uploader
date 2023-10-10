@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
 
   socialUser!: SocialUser;
   isLoggedIn?: boolean;
+  files: File[] = [];
 
   constructor(private socialAuthService: SocialAuthService) {
   }
@@ -31,5 +32,14 @@ export class AppComponent implements OnInit {
 
   logOut(): void {
     this.socialAuthService.signOut();
+  }
+
+  onFileSelected(event: any) {
+    if (event.target.files.length > 0) {
+      for(var i = 0; i < event.target.files.length; i++) {
+        console.log(event.target.files[i].name);
+        this.files.push(event.target.files[i]);
+      }
+    }
   }
 }

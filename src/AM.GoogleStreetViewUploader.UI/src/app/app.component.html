@@ -1,15 +1,27 @@
-<ng-container
-  *ngIf="isLoggedIn === true; then loggedIn; else loggedOut">
-</ng-container>
+<div class="app-page">
+  <div class="app-header">
+    <mat-toolbar color="primary">
+      <span>AM Google StreetView Uploader</span>
+    </mat-toolbar>
+  </div>
+  <div class="app-content">
+    <ng-container *ngIf="isLoggedIn === true; then loggedIn; else loggedOut"></ng-container>
+  </div>
+</div>
 
 <ng-template #loggedIn>
   <div>
-    You are logged in as {{socialUser.name}}!
+    <h2>
+      You are logged in as {{socialUser.name}}!
+    </h2>
+    <input type="file" multiple class="app-file-upload" (change)="onFileSelected($event)" #fileUpload accept="image/jpeg">
+    <button mat-raised-button color="primary" (click)="fileUpload.click()">Choose files</button>    
   </div>
 </ng-template>
 
 <ng-template #loggedOut>
   <div>
-    <asl-google-signin-button></asl-google-signin-button>
+    <h2>You are not logged in!</h2>
+    <h3>Please use <asl-google-signin-button></asl-google-signin-button> to login.</h3>
   </div>
 </ng-template>
